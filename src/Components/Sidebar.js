@@ -6,11 +6,9 @@ import Groups from "./Groups";
 
 const Sidebar = ( {isOpen} ) => {
 
-
   return(
         <div className="left__panel sidebar"
-            style={isOpen ? {width: 250 + "px", padding: 15 + "px"} : {width: 0 + "px"}}
-            // className={`left__panel ${isOpen ? "open" : "sidebar"}`}
+            style={isOpen ? {width: 250 + "px", padding: 15 + "px"} : null}
             id="left__panel">
           <Search />
           <Projects />

@@ -8,18 +8,20 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false)
 
-  // const [width, setWidth] = useState(0)
-  // let style = {width: width}
-
   const handleOpenSidebar = () => {
-    setIsOpen(!isOpen)
-    // setWidth(250)
+    setIsOpen(true)
+  }
+
+  const handleCloseSidebar = () => {
+    setIsOpen(false)
   }
 
   return (
       <div className='chat'>
         <Sidebar isOpen={isOpen} />
-        <Main handleOpenSidebar={handleOpenSidebar} />
+        <Main
+            handleOpenSidebar={handleOpenSidebar}
+            handleCloseSidebar={handleCloseSidebar} />
       </div>
   );
 }

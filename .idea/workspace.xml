@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ConversationInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ConversationInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Messages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/message.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/message.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +61,9 @@
       <workItem from="1619724282250" duration="1788000" />
       <workItem from="1619726092483" duration="1337000" />
       <workItem from="1619727931223" duration="1318000" />
-      <workItem from="1619729960963" duration="934000" />
+      <workItem from="1619729960963" duration="1755000" />
+      <workItem from="1619732159714" duration="1841000" />
+      <workItem from="1619734023437" duration="1583000" />
     </task>
     <servers />
   </component>

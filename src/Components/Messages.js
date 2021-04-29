@@ -1,12 +1,10 @@
 import React from "react";
-import ConversationInfo from "./ConversationInfo";
 
+const Messages = ( {handleCloseSidebar} ) => {
 
-const Messages = () => {
   return (
       <>
-        {/*<ConversationInfo/>*/}
-        <div className="messages">
+        <div className="messages" onClick={handleCloseSidebar}>
           <ul className="messages__block" id="messagesBlock">
             <li className="messages__sent">
               <div className="avatar__block">

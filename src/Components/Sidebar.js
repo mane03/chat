@@ -1,24 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import Search from "./Search";
 import Projects from "./Projects";
 import Conversation from "./Conversation";
 import Groups from "./Groups";
 
-const Sidebar = () => {
+const Sidebar = ( {isOpen} ) => {
 
-  const [isOpen, setIsOpen] = useState(false)
-
-  const handleOpenSidebar = () => {
-    setIsOpen(!isOpen)
-  }
 
   return(
-    <div className="left__panel sidebar" id="left__panel">
-      <Search />
-      <Projects />
-      <Conversation  />
-      <Groups />
-    </div>
+        <div className="left__panel sidebar"
+            style={isOpen ? {width: 250 + "px", padding: 15 + "px"} : {width: 0 + "px"}}
+            // className={`left__panel ${isOpen ? "open" : "sidebar"}`}
+            id="left__panel">
+          <Search />
+          <Projects />
+          <Conversation />
+          <Groups />
+        </div>
   )
 }
 

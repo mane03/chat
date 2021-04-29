@@ -1,11 +1,11 @@
 import React from "react";
 
-const ConversationInfo = () => {
+const ConversationInfo = ( {handleOpenSidebar}) => {
 
   return(
       <>
         <div className="chat__info">
-            <span  className="sidebar__icon">
+            <span className="sidebar__icon" onClick={handleOpenSidebar}>
                 <img src="images/icons/sidebar.svg" alt="icon" />
             </span>
           <h3 className="chat__name">Group name</h3>

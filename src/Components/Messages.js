@@ -5,7 +5,7 @@ import ConversationInfo from "./ConversationInfo";
 const Messages = () => {
   return (
       <>
-        <ConversationInfo/>
+        {/*<ConversationInfo/>*/}
         <div className="messages">
           <ul className="messages__block" id="messagesBlock">
             <li className="messages__sent">

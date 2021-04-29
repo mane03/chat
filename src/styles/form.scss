@@ -1,0 +1,44 @@
+.form {
+  &__block {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: inherit;
+  }
+
+  &__input {
+    background: #201A34;
+
+    @media (max-width: 850px) {
+      padding: 10px 20px;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    right: 5%;
+  }
+
+  &__label {
+    background: linear-gradient(270deg, #B05ABF 0%, #5C27FE 100%);
+    border-radius: 20px;
+    color: #122dff;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+  }
+
+  &__input {
+    background: #1B162C;
+    padding: 1em 2em;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+}

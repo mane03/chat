@@ -1,0 +1,38 @@
+.group {
+  &__members {
+    display: flex;
+  }
+
+  &__item {
+    background: #494343;
+    width: 40px;
+    height: 40px;
+    margin-left: -12px;
+    border-radius: 50%;
+
+    @media (max-width: 1070px) {
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (max-width: 620px) {
+      width: 25px;
+      height: 25px;
+    }
+
+    @media (max-width: 400px) {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__items {
+    display: none;
+
+    &.active {
+      display: block;
+      transition: 0.5s ease;
+    }
+  }
+
+}

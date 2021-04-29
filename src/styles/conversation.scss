@@ -1,0 +1,33 @@
+.conversation {
+
+  &__block {
+    display: flex;
+    align-items: center;
+    background: var(--block-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    &:nth-child(2) {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    &:hover {
+      background: var(--hover-color);
+      transition: 0.2s ease;
+    }
+
+    &:hover .user__name {
+      color: var(--text-color);
+      transition: 0.2s ease;
+    }
+
+    @media (max-width: 700px){
+      padding: 8px 10px;
+    }
+
+  }
+
+
+
+}

@@ -1,0 +1,40 @@
+.user {
+  &__image {
+    background: var(--logos-color);
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    @media (max-width: 700px) {
+      width: 35px;
+      height: 35px;
+      min-width: 35px;
+    }
+  }
+
+  &__name {
+    margin: 0;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 14px;
+
+    @media (max-width: 1070px) {
+      margin: 12px;
+    }
+
+    @media (max-width: 850px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 620px) {
+      font-size: 12px;
+    }
+  }
+
+}

@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/project.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../terminal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -64,6 +64,20 @@
       <workItem from="1619729960963" duration="1755000" />
       <workItem from="1619732159714" duration="1841000" />
       <workItem from="1619734023437" duration="1583000" />
+      <workItem from="1619735831284" duration="357000" />
+      <workItem from="1619777268696" duration="975000" />
+      <workItem from="1619781230813" duration="608000" />
+      <workItem from="1619783024688" duration="599000" />
+      <workItem from="1619784875700" duration="599000" />
+      <workItem from="1619786704356" duration="599000" />
+      <workItem from="1619789473521" duration="607000" />
+      <workItem from="1619799984787" duration="589000" />
+      <workItem from="1619815709828" duration="17000" />
+      <workItem from="1620052069641" duration="2018000" />
+      <workItem from="1620170293698" duration="548000" />
+      <workItem from="1620171866556" duration="7000" />
+      <workItem from="1620171901860" duration="14000" />
+      <workItem from="1620205765921" duration="439000" />
     </task>
     <servers />
   </component>

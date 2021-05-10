@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import ConversationInfo from "./ConversationInfo";
 import Messages from "./Messages";
 import SentMessage from "./SentMessage";

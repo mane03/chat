@@ -1,0 +1,15 @@
+.header {
+  background: #201A34;
+  padding: 13px 30px;
+  margin-bottom: 30px;
+
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+  }
+}

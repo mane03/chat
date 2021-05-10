@@ -1,0 +1,91 @@
+.posts {
+  //background: #FAFAFA;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 50px 115px 0 50px;
+
+  &__item {
+    display: flex;
+    margin-right: 18px;
+    margin-bottom: 50px;
+  }
+}
+
+.post {
+
+  &__info {
+    margin-left: 10px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    //color: #262D37;
+    margin: 0;
+  }
+
+  &__time {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    //color: #A0A0A0;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    //color: #3C424B;
+    margin: 13px 0;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__icons {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  &__icon {
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: capitalize;
+    //color: #A0A0A0;
+    align-items: center;
+    display: flex;
+
+    &:before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      background-size: 100%;
+      display: inline-flex;
+      margin-right: 10px;
+      //color: #FFFFFF;
+    }
+
+    &:first-child:before {
+      background: url("../icons/like.svg") no-repeat center center;
+    }
+
+    &:nth-child(2):before {
+      background: url("../icons/comment.svg") no-repeat center center;
+    }
+
+    &:nth-child(3):before {
+      background: url("../icons/repost.svg") no-repeat center center;
+    }
+
+    &:last-child:before {
+      background: url("../icons/sent.svg") no-repeat center center;
+    }
+  }
+}

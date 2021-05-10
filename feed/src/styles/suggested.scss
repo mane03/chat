@@ -1,0 +1,50 @@
+.suggested {
+  margin-top: 50px;
+  padding: 25px;
+  //background: #F1F1F1;/
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  &__title {
+    font-size: 20px;
+    line-height: 18px;
+    text-transform: capitalize;
+    //color: #262D37;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__others {
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    //color: #999494;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  &__userName {
+    font-size: 18px;
+    line-height: 11px;
+    text-transform: capitalize;
+    //color: #3C424B;
+    margin-top: 20px;
+  }
+
+  &__button {
+    background: #342A54;
+    border-radius: 10px;
+    padding: 5px 35px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+  }
+}

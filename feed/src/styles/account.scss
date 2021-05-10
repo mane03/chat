@@ -1,0 +1,66 @@
+.account {
+  //background: #F1F1F1;
+  border-radius: 10px;
+  padding-top: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //style={{position: "sticky", top: 0}}
+
+  &__name {
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: capitalize;
+    //color: #3C424B;
+    margin-top: 16px;
+  }
+
+  &__desc {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    //color: #3C424B;
+    margin: 0;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.info {
+
+  &__item {
+    border-right: 1px solid #C4C4C4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    //padding: 0 30px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+
+  &__title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    //color: #A0A0A0;
+  }
+
+  &__number {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    //color: #262D37;
+  }
+}

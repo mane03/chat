@@ -1,0 +1,78 @@
+.classes {
+  //background: #F1F1F1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 35px 28px;
+
+}
+
+.homework {
+  &__title {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    //color: #262D37;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    //background: #C4C4C4;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  &__item {
+    border-bottom: 0.5px solid #F3F3F3;
+    padding: 17px 0;
+
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+.item {
+
+  &__title {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    //color: #1B162C;
+  }
+
+  &__timeline {
+    font-size: 15px;
+    line-height: 15px;
+    //color: #342A54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      content: "";
+      background: url("../icons/sand-clock.svg") no-repeat center center;
+      animation-name: rotate;
+      animation-duration: 3s;
+      animation-timing-function: cubic-bezier(0.46, 0.06, 0.72, 1.17);
+      animation-iteration-count: infinite;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-size: 100%;
+      margin-right: 10px;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0deg)
+  }
+
+  100%{
+    transform:rotate(180deg)
+  }
+}

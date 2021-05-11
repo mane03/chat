@@ -8,6 +8,10 @@
     margin-right: 18px;
     margin-bottom: 50px;
   }
+
+  @media (max-width: 1200px) {
+    padding: 30px 70px 0 30px;
+  }
 }
 
 .post {

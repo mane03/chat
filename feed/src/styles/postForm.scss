@@ -5,6 +5,10 @@
   padding: 16px 0 0 50px;
   border: none;
 
+  @media (max-width: 1200px) {
+    padding-left: 25px;
+  }
+
   &__block {
     display: flex;
     align-items: center;
@@ -64,6 +68,12 @@
       background-size: 100%;
       display: inline-flex;
       margin-right: 10px;
+
+
+      @media (max-width: 1200px) {
+        margin-right: 5px;
+      }
+
     }
 
     &:first-child:before {
@@ -90,6 +100,12 @@
     color: #FFFFFF;
     border: none;
     padding: 11px 60px;
+
+
+    @media (max-width: 1200px) {
+      padding: 11px 50px;
+    }
+
   }
 
   &__helpBtn {

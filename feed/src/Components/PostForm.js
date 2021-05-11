@@ -3,13 +3,13 @@ import userImg from "../assets/images/userImage.png";
 
 function PostForm() {
   const [selectedFile, setSelectedFile] = useState();
-  const [isFilePicked, setIsFilePicked] = useState(false);
+  // const [isFilePicked, setIsFilePicked] = useState(false);
 
   const handleChange = (e) => {
     setSelectedFile(e.target.files[0]);
-    setIsFilePicked(true);
-    console.log(selectedFile);
+    // setIsFilePicked(true);
   };
+  console.log(selectedFile);
 
   return (
     <form action="#" className="post">

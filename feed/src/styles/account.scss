@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //style={{position: "sticky", top: 0}}
 
   &__name {
     font-size: 17px;
@@ -31,6 +30,11 @@
     list-style: none;
     width: 100%;
     justify-content: center;
+  }
+
+  &__img {
+    width: 100px;
+    height: 100px;
   }
 }
 

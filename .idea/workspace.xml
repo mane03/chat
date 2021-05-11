@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feed/src/assets/icons/book.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/CommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/CommentForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/Emoji.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/EmojiData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/GlobalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/GlobalStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/Components/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/PostForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/styles/commentForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/commentForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/account.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/styles/postForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/postForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/posts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/feed/src/assets/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />

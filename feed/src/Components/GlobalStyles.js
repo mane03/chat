@@ -1,5 +1,4 @@
-import { createGlobalStyle} from "styled-components"
-
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -9,7 +8,8 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   ::placeholder,
-  .post__input {
+  .post__input,
+  .post__helpBtn{
     color: ${({ theme }) => theme.text};
   }
   
@@ -29,4 +29,4 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   
-`
+`;

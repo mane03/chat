@@ -53,7 +53,7 @@
 
     &::before {
       content: "";
-      background: url("../icons/sand-clock.svg") no-repeat center center;
+      background: url("../assets/icons/sand-clock.svg") no-repeat center center;
       animation-name: rotate;
       animation-duration: 3s;
       animation-timing-function: cubic-bezier(0.46, 0.06, 0.72, 1.17);

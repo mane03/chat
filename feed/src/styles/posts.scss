@@ -1,5 +1,4 @@
 .posts {
-  //background: #FAFAFA;
   border-radius: 10px;
   margin-top: 20px;
   padding: 50px 115px 0 50px;
@@ -12,7 +11,6 @@
 }
 
 .post {
-
   &__info {
     margin-left: 10px;
   }
@@ -54,38 +52,19 @@
     margin-top: 20px;
   }
 
+
   &__icon {
+    border: none;
+    background: transparent;
+    outline: none;
     font-size: 15px;
     line-height: 15px;
     text-transform: capitalize;
-    //color: #A0A0A0;
     align-items: center;
     display: flex;
+  }
 
-    &:before {
-      content: "";
-      width: 25px;
-      height: 25px;
-      background-size: 100%;
-      display: inline-flex;
-      margin-right: 10px;
-      //color: #FFFFFF;
-    }
-
-    &:first-child:before {
-      background: url("../icons/like.svg") no-repeat center center;
-    }
-
-    &:nth-child(2):before {
-      background: url("../icons/comment.svg") no-repeat center center;
-    }
-
-    &:nth-child(3):before {
-      background: url("../icons/repost.svg") no-repeat center center;
-    }
-
-    &:last-child:before {
-      background: url("../icons/sent.svg") no-repeat center center;
-    }
+  &__helpIcon {
+    margin-right: 10px;
   }
 }

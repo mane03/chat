@@ -67,15 +67,15 @@
     }
 
     &:first-child:before {
-      background: url("../icons/addPhoto.svg") no-repeat center center;
+      background: url("../assets/icons/addPhoto.svg") no-repeat center center;
     }
 
     &:nth-child(2):before {
-      background: url("../icons/location.svg") no-repeat center center;
+      background: url("../assets/icons/location.svg") no-repeat center center;
     }
 
     &:last-child:before {
-      background: url("../icons/voice.svg") no-repeat center center;
+      background: url("../assets/icons/voice.svg") no-repeat center center;
     }
 
     &:last-child {

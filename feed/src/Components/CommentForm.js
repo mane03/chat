@@ -1,18 +1,23 @@
 import React, {useRef, useState} from 'react';
 import useDynamicHeight from "../hooks/useDynamicHeight";
-// import Picker, { SKIN_TONE_MEDIUM_DARK } from "emoji-picker-react";
-import Emoji from "./Emoji";
+import smile from "../assets/icons/smile.svg"
+import 'emoji-mart/css/emoji-mart.css'
+import { Picker } from 'emoji-mart'
 const INITIAL_HEIGHT = 0
 
 
 function CommentForm() {
     const [isExpanded, setIsExpanded] = useState(false);
     const [commentValue, setCommentValue] = useState("");
+    const [openEmoji, setOpenEmoji] = useState(false);
     const textRef = useRef(null);
     const containerRef = useRef(null);
     const outerHeight = useRef(INITIAL_HEIGHT);
     useDynamicHeight(textRef, commentValue)
 
+    const handleOpenEmoji = () => {
+        setOpenEmoji(!openEmoji)
+    }
 
     const onExpand = () => {
         if (!isExpanded) {
@@ -31,6 +36,11 @@ function CommentForm() {
         console.log(commentValue)
     }
 
+    const addEmoji = (e) => {
+        let emoji = e.native;
+        setCommentValue(commentValue + emoji)
+    };
+
     return (
         <>
             <form
@@ -48,7 +58,12 @@ function CommentForm() {
                     name="comment"
                     id="comment">
                 </textarea>
-                <Emoji/>
+                {openEmoji && <Picker
+                                showSkinTones={false}
+                                showPreview={false}
+                                onSelect={addEmoji}
+                />}
+                <img src={smile} onClick={handleOpenEmoji} alt="smile"/>
                 <button className="comment__post" onClick={handleSubmit}>Post</button>
             </form>
         </>

@@ -1,9 +1,8 @@
 .comment {
-
   &__add {
     resize: none;
-    background: #1B162C;
-    color: #E0E0E0;
+    background: #1b162c;
+    color: #e0e0e0;
     overflow: hidden;
     outline: none;
     border: none;
@@ -13,10 +12,10 @@
   }
 
   &__post {
-    background-color: #342A54;
+    background-color: #342a54;
     font-size: 16px;
     padding: 10px 30px;
-    color: #E0E0E0;
+    color: #e0e0e0;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -26,5 +25,4 @@
     display: flex;
     justify-content: space-between;
   }
-
 }

@@ -55,11 +55,10 @@
     line-height: 13px;
     display: flex;
     align-items: center;
-    border-right: 1px solid #C4C4C4;
+    border-right: 1px solid #c4c4c4;
     padding: 11px 0;
     width: 100%;
     justify-content: center;
-
 
     &:before {
       content: "";
@@ -69,11 +68,9 @@
       display: inline-flex;
       margin-right: 10px;
 
-
       @media (max-width: 1200px) {
         margin-right: 5px;
       }
-
     }
 
     &:first-child:before {
@@ -94,18 +91,16 @@
   }
 
   &__btn {
-    background: #342A54;
+    background: #342a54;
     border-radius: 0 0 10px 0;
     outline: none;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
     padding: 11px 60px;
-
 
     @media (max-width: 1200px) {
       padding: 11px 50px;
     }
-
   }
 
   &__helpBtn {
@@ -113,5 +108,4 @@
     border: none;
     outline: none;
   }
-
 }

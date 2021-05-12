@@ -24,7 +24,10 @@ function PostForm() {
       <div className="post__buttons">
         <ul className="post__helpers">
           <li className="post__items">
-            <label htmlFor="filePicker" style={{ margin: 0 }}>
+            <label
+              htmlFor="filePicker"
+              style={{ margin: 0, cursor: "pointer" }}
+            >
               Photo/Video
             </label>
             <input

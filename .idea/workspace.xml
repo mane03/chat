@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/PostForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/styles/account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/activity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/activity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/commentForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/commentForm.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/styles/postForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/postForm.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/styles/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/posts.scss" afterDir="false" />
     </list>
@@ -90,6 +91,7 @@
       <workItem from="1620637643463" duration="21809000" />
       <workItem from="1620686232332" duration="3000" />
       <workItem from="1620725613090" duration="100000" />
+      <workItem from="1620763216488" duration="285000" />
     </task>
     <servers />
   </component>

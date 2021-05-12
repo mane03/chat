@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
+import chat from "../assets/icons/messenger.svg";
+import lessons from "../assets/icons/lessons.svg";
+import logo from "../assets/icons/code-republic-logo.png";
 
 function Header() {
   return (
@@ -7,7 +10,16 @@ function Header() {
       <Row>
         <Col>
           <div className="header">
-            <h2 className="header__title">Code Republic Social Network</h2>
+            <img src={logo} className="header__logo" alt="logo" />
+            {/*<h2 className="header__title">Code Republic Social Network</h2>*/}
+            <div className="header__buttons">
+              <button className="header__button">
+                <img src={chat} alt="chat-icon" />
+              </button>
+              <button className="header__button">
+                <img src={lessons} alt="lessons-icon" />
+              </button>
+            </div>
           </div>
         </Col>
       </Row>

@@ -7,10 +7,15 @@
     display: flex;
     margin-right: 18px;
     margin-bottom: 50px;
+
   }
 
   @media (max-width: 1200px) {
-    padding: 30px 70px 0 30px;
+    padding: 30px 30px 0 30px;
+  }
+
+  @media (max-width: 530px) {
+    padding: 20px ;
   }
 }
 
@@ -22,14 +27,18 @@
   &__name {
     font-weight: 600;
     font-size: 15px;
-    line-height: 18px;
+    //line-height: 18px;
     text-transform: capitalize;
     margin: 0;
+    
+    @media (max-width: 450px) {
+      font-size: 12px;
+    }
   }
 
   &__time {
     font-size: 10px;
-    line-height: 12px;
+    //line-height: 12px;
     letter-spacing: 0.08em;
     text-transform: capitalize;
   }
@@ -39,6 +48,11 @@
     line-height: 17px;
     text-transform: capitalize;
     margin: 13px 0;
+    
+    @media (max-width: 530px) {
+      font-size: 13px;
+      line-height: 20px;
+    }
   }
 
   &__image {
@@ -53,6 +67,13 @@
     margin-top: 20px;
   }
 
+  &__img {
+    @media (max-width: 455px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
   &__icon {
     border: none;
     background: transparent;
@@ -62,9 +83,14 @@
     text-transform: capitalize;
     align-items: center;
     display: flex;
+
+    @media (max-width: 530px) {
+      font-size: 13px;
+    }
   }
 
   &__helpIcon {
     margin-right: 10px;
   }
+
 }

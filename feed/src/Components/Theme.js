@@ -6,6 +6,7 @@ export const lightTheme = {
     text: '#3C424B',
     toggleColor: '#342A54',
     background: '#363537',
+    commentBg: "#F1F1F1"
 }
 
 
@@ -17,5 +18,6 @@ export const darkTheme = {
     text: '#E0E0E0',
     toggleColor: '#C4C4C4',
     background: '#999',
+    commentBg: "#1B162C"
 }
 

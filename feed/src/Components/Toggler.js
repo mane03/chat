@@ -10,6 +10,10 @@ const Button = styled.button`
   border: none;
   outline: none;
   margin: 25px 0;
+  @media(max-width: 1200px) {
+    margin: 20px 0;
+    padding: 5px 25px;
+  }
 `;
 
 const Sun = styled.svg`

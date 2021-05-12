@@ -9,7 +9,8 @@ export const GlobalStyles = createGlobalStyle`
   
   ::placeholder,
   .post__input,
-  .post__helpBtn{
+  .post__helpBtn,
+  .comment__add{
     color: ${({ theme }) => theme.text};
   }
   
@@ -18,7 +19,11 @@ export const GlobalStyles = createGlobalStyle`
   .suggested {
     background: ${({ theme }) => theme.blockColor};
   }
-  
+
+  .comment__add {
+    background: ${({ theme }) => theme.commentBg};
+  }
+
   .homework__list {
     background: ${({ theme }) => theme.homework};
   }

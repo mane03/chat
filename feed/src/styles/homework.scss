@@ -38,6 +38,10 @@
     &:last-child {
       border: none;
     }
+    
+    @media (max-width: 1200px) {
+      padding: 25px 0;
+    }
   }
 }
 

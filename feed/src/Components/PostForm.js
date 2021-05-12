@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import userImg from "../assets/images/userImage.png";
+import cancel from "../assets/icons/error.svg";
 
 function PostForm() {
-  const [selectedFile, setSelectedFile] = useState();
+  const [selectedFile, setSelectedFile] = useState(null);
   // const [isFilePicked, setIsFilePicked] = useState(false);
 
   const handleChange = (e) => {
-    setSelectedFile(e.target.files[0]);
+    setSelectedFile(URL.createObjectURL(e.target.files[0]));
     // setIsFilePicked(true);
   };
-  console.log(selectedFile);
+  // console.log(selectedFile);
+
+  const handleCancel = () => {
+    setSelectedFile(null)
+  }
 
   return (
     <form action="#" className="post">
@@ -21,11 +26,22 @@ function PostForm() {
           placeholder="What’s on your mind today?"
         />
       </div>
+      {selectedFile && (
+        <div className="post__selectedImg">
+          <img onClick={handleCancel} src={cancel} className="post__cancel" alt="cancel" />
+          <img
+            className="post__selectedFile"
+            src={selectedFile}
+            alt="selected-file"
+          />
+        </div>
+      )}
       <div className="post__buttons">
         <ul className="post__helpers">
           <li className="post__items">
             <label
               htmlFor="filePicker"
+              className="post__helpBtn"
               style={{ margin: 0, cursor: "pointer" }}
             >
               Photo/Video
@@ -36,9 +52,6 @@ function PostForm() {
               style={{ visibility: "hidden", width: 0 }}
               onChange={handleChange}
             />
-          </li>
-          <li className="post__items">
-            <button className="post__helpBtn">my location</button>
           </li>
           <li className="post__items">
             <button className="post__helpBtn">book</button>

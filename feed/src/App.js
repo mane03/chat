@@ -14,10 +14,8 @@ function App() {
         <Route path={"/chat"} exact>
           <Chat />
         </Route>
-          <Route path={"/username"} exact>
-          </Route>
-        <Route path={"./user"}>
-        </Route>
+        <Route path={"/username"} exact></Route>
+        <Route path={"./user"}></Route>
       </Switch>
     </Router>
   );

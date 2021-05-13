@@ -16,6 +16,7 @@
 @import "styles/sent";
 @import "styles/group";
 @import "styles/user";
+@import "styles/miniChat";
 
 :root {
   --text-color: #e0e0e0;
@@ -188,4 +189,10 @@ input[type="text"] {
   .icon {
     padding: 6px;
   }
+}
+
+.chatHeader__logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }

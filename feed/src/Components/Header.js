@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Container } from "reactstrap";
 import chat from "../assets/icons/messenger.svg";
 import lessons from "../assets/icons/lessons.svg";
@@ -10,16 +10,18 @@ function Header() {
   return (
     <Container className="header__container" fluid>
       <div className="header">
-        <img src={logo} className="header__logo" alt="logo" />
+        <Link to={"/"}>
+          <img src={logo} className="header__logo" alt="logo" />
+        </Link>
         <div className="header__buttons">
           <Link to={"/chat"}>
             <button className="header__button">
               <img src={chat} alt="chat-icon" />
             </button>
           </Link>
-          <button className="header__button">
-            <img src={lessons} alt="lessons-icon" />
-          </button>
+            <button className="header__button">
+              <img src={lessons} alt="lessons-icon" />
+            </button>
         </div>
       </div>
     </Container>

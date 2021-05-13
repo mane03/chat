@@ -1,0 +1,72 @@
+.chat__button {
+  border-radius: 50%;
+  padding: 15px;
+  border: none;
+  background: #c4c4c4;
+  position: fixed;
+  right: 20px;
+  z-index: 2;
+  bottom: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 3px 1px 9px 2px rgb(84 91 90 / 77%), 0 12px 28px rgb(0 0 0 / 20%);
+
+  &:hover {
+    background: #a7a6a6;
+  }
+
+  .chat__icon {
+    width: 30px;
+  }
+}
+
+
+.smChat {
+  position: fixed;
+  right: 30px;
+  bottom: 60px;
+  z-index: 1;
+  background-color: #0f0623;
+  border-radius: 20px;
+  padding: 20px 10px;
+
+
+  &__single {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #1b162c;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  &__block {
+
+  }
+
+  &__single {
+
+  }
+
+  &__img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 15px;
+  }
+
+  &__name {
+    font-size: 15px;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 13px;
+  }
+}

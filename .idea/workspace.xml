@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/styles/account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/account.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/styles/activity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/activity.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/styles/commentForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/commentForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/styles/postForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/postForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/styles/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/posts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/feed/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/feed/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feed/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1rhnTn9qnayfTv3qaH3hgEGrFvb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/feed/src/assets/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/feed/src/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -36,10 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/feed/src/assets/images" />
       <recent name="$PROJECT_DIR$/feed/src/assets/icons" />
-      <recent name="$PROJECT_DIR$/feed/src/hooks" />
-      <recent name="$PROJECT_DIR$/feed" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/feed/src" />
+      <recent name="$PROJECT_DIR$/feed/src/styles" />
+      <recent name="$PROJECT_DIR$/feed/src/Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/feed/src/assets" />
@@ -92,6 +100,8 @@
       <workItem from="1620686232332" duration="3000" />
       <workItem from="1620725613090" duration="100000" />
       <workItem from="1620763216488" duration="285000" />
+      <workItem from="1620812049645" duration="13081000" />
+      <workItem from="1620838401569" duration="6553000" />
     </task>
     <servers />
   </component>

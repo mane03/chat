@@ -11,7 +11,6 @@ function Header() {
         <Col>
           <div className="header">
             <img src={logo} className="header__logo" alt="logo" />
-            {/*<h2 className="header__title">Code Republic Social Network</h2>*/}
             <div className="header__buttons">
               <button className="header__button">
                 <img src={chat} alt="chat-icon" />

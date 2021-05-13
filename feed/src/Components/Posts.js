@@ -58,12 +58,15 @@ function Posts() {
         <div className="posts">
           {items.map((i, index) => (
             <div className="posts__item" key={index}>
-              <div className="posts__user">
-                <img src={userImg} className="post__img" alt="user" />
-              </div>
               <div className="post__info">
-                <h3 className="post__name">Metaqs Avagyan</h3>
-                <span className="post__time">Today 9:25 Pm</span>
+                <div className="post__user">
+                  <img src={userImg} className="post__img" alt="user" />
+                  <div>
+
+                    <h3 className="post__name">Metaqs Avagyan</h3>
+                    <span className="post__time">Today 9:25 Pm</span>
+                  </div>
+                </div>
                 <p className="post__desc">
                   Two things are infinite: the universe and human stupidity, and
                   I'm not sure about the universe.

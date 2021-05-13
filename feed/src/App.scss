@@ -8,6 +8,191 @@
 @import "styles/presents";
 @import "styles/suggested";
 @import "styles/commentForm";
+@import "styles/form";
+@import "styles/project";
+@import "styles/message";
+@import "styles/conversation";
+@import "styles/chat";
+@import "styles/sent";
+@import "styles/group";
+@import "styles/user";
+
+
+:root {
+    --text-color: #E0E0E0;
+    --background-color: #201A34;
+    --block-color: #DCDCDC;
+    --logos-color: #C4C4C4;
+    --hover-color: #342A54;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #201A34;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left__panel {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 550px;
+    height: 100vh;
+    padding: 45px 50px;
+    background-color: #1B162C;
+}
+
+::placeholder {
+    font-size: 13px;
+    line-height: 15px;
+    color: #E0E0E0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type="text"] {
+    color: #E0E0E0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right__panel {
+    padding: 45px 23px;
+    width: 100%;
+    position: relative;
+}
+
+.helper__icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    background: var(--logos-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.icon:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.more__icon {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.sidebar__icon {
+    display: none;
+}
+
+@media (max-width: 1070px) {
+    .left__panel {
+        padding: 30px 40px;
+        width: 500px;
+    }
+
+    .right__panel {
+        padding: 35px 20px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .left__panel {
+        width: 450px;
+        padding: 25px 30px;
+    }
+
+    .right__panel {
+        padding: 30px 15px;
+    }
+
+    .user__name {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .left__panel {
+        width: 350px;
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .right__panel {
+        padding: 20px 15px;
+    }
+
+    ::placeholder {
+        font-size: 11px;
+    }
+
+    .user__name {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .sidebar {
+        padding: 0;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .sidebar__icon {
+        display: flex;
+    }
+
+    .right__panel {
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .more__icon {
+        width: 15px;
+        height: 15px;
+        padding: 0;
+    }
+
+    .more__icon:nth-child(2) {
+        margin: 0 5px;
+    }
+
+    .icon {
+        padding: 6px;
+    }
+}
 
 body {
     background: #E0E0E0;

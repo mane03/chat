@@ -1,5 +1,4 @@
 .post {
-  //background: #FAFAFA;
   box-sizing: border-box;
   border-radius: 10px;
   padding: 16px 0 0 50px;
@@ -23,20 +22,33 @@
     height: 50px;
   }
 
+
   &__input {
     border: none;
     outline: none;
     background: transparent;
     margin-left: 18px;
     width: 100%;
-    //color: #E0E0E0;
 
     &::placeholder {
       font-size: 15px;
       line-height: 18px;
-      //color: #999494;
+
+      @media (max-width: 320px) {
+        font-size: 13px;
+      }
     }
   }
+
+  &__img {
+    margin-right: 10px;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
 
   &__buttons {
     display: flex;
@@ -60,7 +72,6 @@
     display: flex;
     align-items: center;
     border-right: 1px solid #c4c4c4;
-    //padding: 11px 0;  
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -115,7 +126,6 @@
       padding: 10px 20px;
       font-size: 13px;
     }
-    
 
     &:hover {
       background: darken(#342a54, 5%);
@@ -128,7 +138,6 @@
   }
 
   &__selectedFile {
-    //position: relative;
     width: 400px;
     height: auto;
     margin-top: 40px;
@@ -141,6 +150,7 @@
     padding: 10px;
     background: #201A34;
     border-radius: 50%;
+    cursor: pointer;
   }
 
   &__helpBtn {

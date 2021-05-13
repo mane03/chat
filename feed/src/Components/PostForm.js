@@ -10,11 +10,12 @@ function PostForm() {
     setSelectedFile(URL.createObjectURL(e.target.files[0]));
     // setIsFilePicked(true);
   };
+
   // console.log(selectedFile);
 
   const handleCancel = () => {
-    setSelectedFile(null)
-  }
+    setSelectedFile(null);
+  };
 
   return (
     <form action="#" className="post">
@@ -28,7 +29,12 @@ function PostForm() {
       </div>
       {selectedFile && (
         <div className="post__selectedImg">
-          <img onClick={handleCancel} src={cancel} className="post__cancel" alt="cancel" />
+          <img
+            onClick={handleCancel}
+            src={cancel}
+            className="post__cancel"
+            alt="cancel"
+          />
           <img
             className="post__selectedFile"
             src={selectedFile}

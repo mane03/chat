@@ -1,4 +1,5 @@
 import React from "react";
+import user from '../assets/images/user.jpg'
 
 const Messages = ( {handleCloseSidebar} ) => {
 
@@ -8,7 +9,7 @@ const Messages = ( {handleCloseSidebar} ) => {
           <ul className="messages__block" id="messagesBlock">
             <li className="messages__sent">
               <div className="avatar__block">
-                <img className="message__img" src="images/user.jpg" alt="avatar" />
+                <img className="message__img" src={user} alt="avatar" />
               </div>
               <div className="message__desc">
                 <p className="message">Lorem ipsum cere laboriosam quo veritatis? Cumque, earum, eligendi error facere ,
@@ -18,7 +19,7 @@ const Messages = ( {handleCloseSidebar} ) => {
             </li>
             <li className="messages__sent reverse">
               <div className="avatar__block">
-                <img className="message__img" src="images/user.jpg" alt="avatar" />
+                <img className="message__img" src={user} alt="avatar" />
               </div>
               <div className="message__desc">
                 <p className="message">Lorem ipsum dolor sit amet, lorem consecrated</p>
@@ -27,7 +28,7 @@ const Messages = ( {handleCloseSidebar} ) => {
             </li>
             <li className="messages__sent">
               <div className="avatar__block">
-                <img className="message__img" src="images/user.jpg" alt="avatar" />
+                <img className="message__img" src={user} alt="avatar" />
               </div>
               <div className="message__desc">
                 <p className="message">Lorem ipsum dolor sit amet, consecrated</p>
@@ -36,7 +37,7 @@ const Messages = ( {handleCloseSidebar} ) => {
             </li>
             <li className="messages__sent reverse">
               <div className="avatar__block">
-                <img className="message__img" src="images/user.jpg" alt="avatar" />
+                <img className="message__img" src={user} alt="avatar" />
               </div>
               <div className="message__desc">
                 <p className="message">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -48,7 +49,7 @@ const Messages = ( {handleCloseSidebar} ) => {
             </li>
             <li className="messages__sent">
               <div className="avatar__block">
-                <img className="message__img" src="images/user.jpg" alt="avatar" />
+                <img className="message__img" src={user} alt="avatar" />
               </div>
               <div className="message__desc">
                 <p className="message">Lorem ipsum dolor sit amet, consectetur adipisicing error est eum</p>

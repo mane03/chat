@@ -1,5 +1,5 @@
 import React from "react";
-// import './App.scss';
+import plus from '../assets/icons/plus.svg'
 
 const Projects = () => {
 
@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="project">
           <div className="project__desc">
             <h2 className="project__title">Projects</h2>
-            <img src="images/icons/plus.svg" className="chat__icon" alt="iconPlus" />
+            <img src={plus} className="chat__icon" alt="iconPlus" />
           </div>
           <div className="project__block">
             <div className="project__logo">

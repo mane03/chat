@@ -1,4 +1,8 @@
 import React from "react";
+import sidebar from '../assets/icons/sidebar.svg'
+import plusRound from '../assets/icons/plus-round.svg'
+import searchBlack from '../assets/icons/search-black.svg'
+import info from '../assets/icons/info.svg'
 
 const ConversationInfo = ( {handleOpenSidebar}) => {
 
@@ -6,17 +10,17 @@ const ConversationInfo = ( {handleOpenSidebar}) => {
       <>
         <div className="chat__info">
             <span className="sidebar__icon" onClick={handleOpenSidebar}>
-                <img src="images/icons/sidebar.svg" alt="icon" />
+                <img src={sidebar} alt="icon" />
             </span>
           <h3 className="chat__name">Group name</h3>
           <div className="helper__icons">
             <div className="icon">
-              <img className="chat__icon" src="images/icons/plus-round.svg" alt="plus" />
+              <img className="chat__icon" src={plusRound} alt="plus" />
             </div>
             <div className="icon">
-              <img className="chat__icon" src="images/icons/search-black.svg" alt="search" />
+              <img className="chat__icon" src={searchBlack} alt="search" />
             </div>
-            <img className="chat__icon" src="images/icons/info.svg" alt="info" />
+            <img className="chat__icon" src={info} alt="info" />
           </div>
         </div>
       </>

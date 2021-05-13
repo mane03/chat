@@ -1,5 +1,5 @@
 import React from "react";
-// import './App.scss';
+import search from '../assets/icons/search.svg'
 
 const Search = () => {
 
@@ -8,7 +8,7 @@ const Search = () => {
     <form action="#" className="chat__form">
       <label htmlFor="search" className="form__label">
         <input type="text" id="search" placeholder="Search input" className="form__input" />
-        <img src="images/icons/search.svg" className="form__icon chat__icon" alt="icon-search" />
+        <img src={search} className="form__icon chat__icon" alt="icon-search" />
       </label>
     </form>
     </>

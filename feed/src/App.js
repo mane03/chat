@@ -6,6 +6,13 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./Components/GlobalStyles";
 import { lightTheme, darkTheme } from "./Components/Theme"
 import {useDarkMode} from "./hooks/useDarkMode"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import Chat from "./Chat";
 
 function App (){
     const [theme, themeToggler, mountedComponent] = useDarkMode();
@@ -24,11 +31,21 @@ function App (){
 
     return (
         <>
-        <ThemeProvider theme={themeMode}>
-            <GlobalStyles />
+        <Router>
+            <Switch>
+            <Route path={'/'} exact>
+                <ThemeProvider theme={themeMode}>
+                <GlobalStyles />
                 <Header />
                 <Feed theme={theme} themeToggler={themeToggler}/>
-        </ThemeProvider>
+                </ThemeProvider>
+            </Route>
+            <Route path={'/chat'} exact>
+                <Chat/>
+            </Route>
+            </Switch>
+        </Router>
+
         </>
     )
 }

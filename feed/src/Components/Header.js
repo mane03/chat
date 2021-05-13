@@ -9,7 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Chat from "../Chat";
+import { withRouter } from "react-router";
 
 
 function Header() {
@@ -21,12 +21,11 @@ function Header() {
           <div className="header">
             <img src={logo} className="header__logo" alt="logo" />
             <div className="header__buttons">
-              <Route path="/chat" component={Chat}/>
-              <Link to={'/chat'}>
-                <button className="header__button">
-                  <img src={chat} alt="chat-icon" />
-                </button>
-              </Link>
+            <Link to={'/chat'}>
+              <button className="header__button">
+                <img src={chat} alt="chat-icon" />
+              </button>
+            </Link>
               <button className="header__button">
                 <img src={lessons} alt="lessons-icon" />
               </button>
@@ -39,4 +38,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default withRouter(Header);

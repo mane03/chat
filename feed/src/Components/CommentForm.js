@@ -48,14 +48,14 @@ function CommentForm() {
         style={{ minHeight: isExpanded ? outerHeight.current : INITIAL_HEIGHT }}
       >
         <textarea
-            ref={textRef}
-            onClick={onExpand}
-            onFocus={onExpand}
-            onChange={handleChange}
-            value={commentValue}
-            className="comment__add"
-            name="comment"
-            id="comment"
+          ref={textRef}
+          onClick={onExpand}
+          onFocus={onExpand}
+          onChange={handleChange}
+          value={commentValue}
+          className="comment__add"
+          name="comment"
+          id="comment"
         />
         {openEmoji && (
           <Picker

@@ -1,45 +1,27 @@
 .header {
-  background: #201A34;
+  background: #201a34;
   padding: 10px 30px;
   margin-bottom: 30px;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 
-  //&__title {
-  //  font-style: normal;
-  //  font-weight: normal;
-  //  font-size: 20px;
-  //  line-height: 24px;
-  //  text-transform: capitalize;
-  //  color: #FFFFFF;
-  //  margin: 0;
-  //
-  //  @media (max-width: 992px) {
-  //    font-size: 16px;
-  //  }
-  //}
+  &__container {
+    padding: 0!important;
+  }
 
   &__logo {
     width: 55px;
   }
 
-  &__buttons {
-
-  }
-
   &__button {
-    background: #342A54;
+    background: #342a54;
     border: none;
     outline: none;
     margin: 0 10px;
-    //padding: 10px;
     border-radius: 50%;
     width: 40px;
-    //display: flex;
-    //align-items: center;
-    //flex-direction: ro/w;
-    //justify-content: center;
     height: 40px;
     min-width: 40px;
 
@@ -47,5 +29,4 @@
       background: darken(#342a54, 5%);
     }
   }
-
 }

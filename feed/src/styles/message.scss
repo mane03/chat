@@ -17,7 +17,6 @@
       width: 40px;
       height: 40px;
     }
-
   }
 
   @media (max-width: 400px) {
@@ -27,7 +26,7 @@
   @media (max-width: 1070px) {
     max-width: 400px;
     font-size: 12px;
-}
+  }
 
   &__time {
     color: var(--text-color);
@@ -41,7 +40,6 @@
   &__desc {
     margin-left: 5px;
   }
-
 }
 
 .messages {
@@ -75,7 +73,7 @@
   justify-content: flex-start;
 
   & .message {
-    background: #201E52;
+    background: #201e52;
   }
 
   & .message__time {

@@ -3,15 +3,14 @@ import ConversationInfo from "./ConversationInfo";
 import Messages from "./Messages";
 import SentMessage from "./SentMessage";
 
-const Main = ( {handleOpenSidebar, handleCloseSidebar}) => {
-
-  return(
-    <div className="right__panel" >
+const Main = ({ handleOpenSidebar, handleCloseSidebar }) => {
+  return (
+    <div className="right__panel">
       <ConversationInfo handleOpenSidebar={handleOpenSidebar} />
-      <Messages handleCloseSidebar={handleCloseSidebar}/>
+      <Messages handleCloseSidebar={handleCloseSidebar} />
       <SentMessage />
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

@@ -1,11 +1,10 @@
 .sent {
-
   &__message {
     display: flex;
   }
 
   &__btn {
-    background: linear-gradient(90deg, #5C27FE 0%, #B65EBA 100%);
+    background: linear-gradient(90deg, #5c27fe 0%, #b65eba 100%);
     border-radius: 20px;
     margin-left: 10px;
     padding: 0 22px;
@@ -64,7 +63,4 @@
     position: absolute;
     right: 5%;
   }
-
 }
-
-

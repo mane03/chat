@@ -6,7 +6,6 @@
   @media (max-width: 1200px) {
     padding: 20px 25px;
   }
-
 }
 
 .homework {
@@ -32,13 +31,13 @@
   }
 
   &__item {
-    border-bottom: 0.5px solid #F3F3F3;
+    border-bottom: 0.5px solid #f3f3f3;
     padding: 17px 0;
 
     &:last-child {
       border: none;
     }
-    
+
     @media (max-width: 1200px) {
       padding: 25px 0;
     }
@@ -46,7 +45,6 @@
 }
 
 .item {
-
   &__title {
     font-size: 15px;
     line-height: 18px;
@@ -80,10 +78,10 @@
 
 @keyframes rotate {
   0% {
-    transform:rotate(0deg)
+    transform: rotate(0deg);
   }
 
-  100%{
-    transform:rotate(180deg)
+  100% {
+    transform: rotate(180deg);
   }
 }

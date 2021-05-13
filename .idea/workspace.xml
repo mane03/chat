@@ -2,17 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feed/src/assets/icons/sentMessage.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/feed/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/feed/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Pages/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/BigFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Pages/BigFeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/CommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/CommentForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/Components/Conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Conversation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/ConversationInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/ConversationInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/Components/Groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Groups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/Components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/Components/SentMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/SentMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Toggler.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Toggler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Pages/BigFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Pages/BigFeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Pages/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Pages/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/bootstrap/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/bootstrap/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/hooks/useDarkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/hooks/useDarkMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/hooks/useDynamicHeight.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/hooks/useDynamicHeight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/activity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/activity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/chat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/conversation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/conversation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/styles/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/homework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/homework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/lessons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/lessons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/message.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/message.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/postForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/postForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/posts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/presents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/presents.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/sent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/sent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/suggested.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/suggested.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/user.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feed/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/feed/src/assets/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user-profile" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -109,6 +142,8 @@
       <workItem from="1620763216488" duration="285000" />
       <workItem from="1620812049645" duration="13081000" />
       <workItem from="1620838401569" duration="10427000" />
+      <workItem from="1620909956451" duration="2564000" />
+      <workItem from="1620912632141" duration="4749000" />
     </task>
     <servers />
   </component>

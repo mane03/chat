@@ -4,17 +4,12 @@ import chat from "../assets/icons/messenger.svg";
 import lessons from "../assets/icons/lessons.svg";
 import logo from "../assets/icons/code-republic-logo.png";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
-import { withRouter } from "react-router";
 
 
 function Header() {
   return (
-    <Router>
     <Container fluid={true}>
       <Row>
         <Col>
@@ -34,8 +29,7 @@ function Header() {
         </Col>
       </Row>
     </Container>
-    </Router>
   );
 }
 
-export default withRouter(Header);
+export default Header;

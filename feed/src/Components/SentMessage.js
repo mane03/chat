@@ -2,7 +2,7 @@ import React from "react";
 import code from '../assets/icons/code.svg'
 import smile from '../assets/icons/smile.svg'
 import paperClip from '../assets/icons/paper-clip.svg'
-import sent from '../assets/icons/sent.svg'
+import sent from '../assets/icons/sentMessage.svg'
 
 const SentMessage = () => {
   return (

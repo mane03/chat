@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e965b6c-e62b-47f4-a234-2ffc5ca61e10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/feed/src/assets/icons/sentMessage.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feed/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/src/Components/Links.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Pages/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/BigFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Pages/BigFeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Conversation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Groups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/Components/SentMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/Components/SentMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/src/styles/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/feed/src/styles/form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/feed/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/feed/src/assets/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -42,13 +49,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/feed/src/assets/images" />
       <recent name="$PROJECT_DIR$/feed/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/feed/src/assets/images" />
       <recent name="$PROJECT_DIR$/feed/src" />
       <recent name="$PROJECT_DIR$/feed/src/styles" />
       <recent name="$PROJECT_DIR$/feed/src/Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/feed/src/Pages" />
       <recent name="$PROJECT_DIR$/feed/src/assets" />
     </key>
   </component>
@@ -100,7 +108,7 @@
       <workItem from="1620725613090" duration="100000" />
       <workItem from="1620763216488" duration="285000" />
       <workItem from="1620812049645" duration="13081000" />
-      <workItem from="1620838401569" duration="8826000" />
+      <workItem from="1620838401569" duration="10427000" />
     </task>
     <servers />
   </component>

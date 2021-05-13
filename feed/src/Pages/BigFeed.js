@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import {useDarkMode} from "../hooks/useDarkMode";
-import {darkTheme, lightTheme} from "./Theme";
-import {GlobalStyles} from "./GlobalStyles";
-import Header from "./Header";
-import Feed from "./Feed";
+import {darkTheme, lightTheme} from "../Components/Theme";
+import {GlobalStyles} from "../Components/GlobalStyles";
+import Header from "../Components/Header";
+import Feed from "../Components/Feed";
 import {ThemeProvider} from "styled-components";
 
 function BigFeed() {

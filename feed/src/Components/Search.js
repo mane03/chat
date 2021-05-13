@@ -7,7 +7,7 @@ const Search = () => {
     <>
     <form action="#" className="chat__form">
       <label htmlFor="search" className="form__label">
-        <input type="text" id="search" placeholder="Search input" className="form__input" />
+        <input type="text" id="search" placeholder="Search input" className="form__input form__search" />
         <img src={search} className="form__icon chat__icon" alt="icon-search" />
       </label>
     </form>

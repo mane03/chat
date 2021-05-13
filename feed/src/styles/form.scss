@@ -9,6 +9,7 @@
 
   &__input {
     background: #201A34;
+    padding: 20px 30px;
 
     @media (max-width: 850px) {
       padding: 10px 20px;
@@ -31,6 +32,7 @@
     text-decoration: none;
     width: 100%;
     position: relative;
+    margin: 0;
   }
 
   &__input {
@@ -40,5 +42,9 @@
     border-radius: 20px;
     border: none;
     outline: none;
+  }
+
+  &__search {
+    padding: 5px 20px;
   }
 }

@@ -5,8 +5,8 @@ import {
     Switch,
     Route
 } from "react-router-dom";
-import Chat from "./Chat";
-import BigFeed from "./Components/BigFeed";
+import Chat from "./Pages/Chat";
+import BigFeed from "./Pages/BigFeed";
 
 
 function App (){

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import { Container } from "reactstrap";
 import chat from "../assets/icons/messenger.svg";
 import lessons from "../assets/icons/lessons.svg";

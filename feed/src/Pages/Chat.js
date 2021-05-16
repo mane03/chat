@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Sidebar from "../Components/Sidebar";
-import Main from "../Components/Main";
+import Sidebar from "../Components/Chat/Sidebar";
+import Main from "../Components/Chat/Main";
 
 function Chat() {
   const [isOpen, setIsOpen] = useState(false);

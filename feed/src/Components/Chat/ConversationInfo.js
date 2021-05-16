@@ -1,8 +1,8 @@
 import React from "react";
-import sidebar from "../assets/icons/sidebar.svg";
-import plusRound from "../assets/icons/plus-round.svg";
-import searchBlack from "../assets/icons/search-black.svg";
-import info from "../assets/icons/info.svg";
+import sidebar from "../../assets/icons/sidebar.svg";
+import plusRound from "../../assets/icons/plus-round.svg";
+import searchBlack from "../../assets/icons/search-black.svg";
+import info from "../../assets/icons/info.svg";
 
 const ConversationInfo = ({ handleOpenSidebar }) => {
   return (

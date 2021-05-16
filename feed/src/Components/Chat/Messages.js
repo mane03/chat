@@ -1,5 +1,5 @@
 import React from "react";
-import user from "../assets/images/user.jpg";
+import user from "../../assets/images/user.jpg";
 
 const Messages = ({ handleCloseSidebar }) => {
   return (

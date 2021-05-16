@@ -3,10 +3,10 @@ import { useDarkMode } from "../hooks/useDarkMode";
 import { darkTheme, lightTheme } from "../Components/Theme";
 import { GlobalStyles } from "../Components/GlobalStyles";
 import Header from "../Components/Header";
-import Feed from "../Components/Feed";
+import Feed from "../Components/Feed/Feed";
 import { ThemeProvider } from "styled-components";
 import chat from "../assets/icons/messenger.svg";
-import MiniChat from "../Components/MiniChat";
+import MiniChat from "../Components/Chat/MiniChat";
 
 function BigFeed() {
   const [theme, themeToggler, mountedComponent] = useDarkMode();

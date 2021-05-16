@@ -7,6 +7,7 @@ export const lightTheme = {
   toggleColor: "#342A54",
   background: "#363537",
   commentBg: "#F1F1F1",
+  smChat: "#fff",
 };
 
 export const darkTheme = {
@@ -18,4 +19,5 @@ export const darkTheme = {
   toggleColor: "#C4C4C4",
   background: "#999",
   commentBg: "#1B162C",
+  smChat: "#0f0623",
 };

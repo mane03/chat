@@ -1,7 +1,7 @@
 import React from "react";
-import present from "../assets/images/present1.svg";
-import present2 from "../assets/images/present2.svg";
-import present3 from "../assets/images/present3.svg";
+import present from "../../assets/images/present1.svg";
+import present2 from "../../assets/images/present2.svg";
+import present3 from "../../assets/images/present3.svg";
 
 function Presents() {
   return (

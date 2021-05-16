@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import userImg from "../assets/images/userImage.png";
-import cancel from "../assets/icons/error.svg";
+import userImg from "../../assets/images/userImage.png";
+import cancel from "../../assets/icons/error.svg";
 
 function PostForm() {
   const [selectedFile, setSelectedFile] = useState(null);

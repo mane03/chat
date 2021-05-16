@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import PostForm from "./PostForm";
 import InfiniteScroll from "react-infinite-scroll-component";
-import userImg from "../assets/images/userImage.png";
-import postIme from "../assets/images/postImg.png";
-import disLike from "../assets/icons/like.svg";
-import liked from "../assets/icons/liked.svg";
-import comment from "../assets/icons/comment.svg";
-import repost from "../assets/icons/repost.svg";
-import sent from "../assets/icons/sent.svg";
+import userImg from "../../assets/images/userImage.png";
+import postIme from "../../assets/images/postImg.png";
+import disLike from "../../assets/icons/like.svg";
+import liked from "../../assets/icons/liked.svg";
+import comment from "../../assets/icons/comment.svg";
+import repost from "../../assets/icons/repost.svg";
+import sent from "../../assets/icons/sent.svg";
 import CommentForm from "./CommentForm";
 import { Link } from "react-router-dom";
 
@@ -64,7 +64,7 @@ function Posts() {
                   <img src={userImg} className="post__img" alt="user" />
                   <div>
                     <h3 className="post__name">
-                      <Link className="post__name" to={"/username"}>
+                      <Link className="link" to={"/username"}>
                         Metaqs Avagyan
                       </Link>
                     </h3>

@@ -10,17 +10,23 @@ export const GlobalStyles = createGlobalStyle`
   ::placeholder,
   .post__input,
   .post__helpBtn,
-  .comment__add{
+  .comment__add,
+  .link {
     color: ${({ theme }) => theme.text};
+  }
+  
+  .link:hover {
+    color: ${({ theme }) => theme.text};
+    text-decoration: none;
   }
   
   .classes,
   .account,
-  .suggested {
+  .suggested{
     background: ${({ theme }) => theme.blockColor};
   }
 
-  .comment__add {
+  .comment__add  {
     background: ${({ theme }) => theme.commentBg};
   }
 
@@ -28,10 +34,16 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.homework};
   }
   
-  .post,
-  .posts{
-    background: ${({ theme }) => theme.posts};
+  .smChat__single:hover {
+    background: ${({ theme }) => theme.commentBg};
   }
   
+  .smChat {
+    background: ${({ theme }) => theme.smChat};
+  }
   
+  .post,
+  .posts {
+    background: ${({ theme }) => theme.posts};
+  }
 `;

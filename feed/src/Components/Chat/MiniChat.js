@@ -1,5 +1,5 @@
 import React from "react";
-import user from '../assets/images/userImage.png'
+import user from '../../assets/images/userImage.png'
 import {Link} from "react-router-dom";
 
 function MiniChat() {
@@ -7,7 +7,7 @@ function MiniChat() {
       <div className="smChat">
       <h3 className="smChat__title">Messages</h3>
       <div className="smChat__block">
-          <Link to={'/chat'}>
+          <Link to={'/chat'} className="link">
           <div className="smChat__single">
               <div>
                   <img src={user} className="smChat__img" alt="chat"/>
@@ -18,7 +18,7 @@ function MiniChat() {
               </div>
           </div>
           </Link>
-          <Link to={'/chat'}>
+          <Link to={'/chat'} className="link">
               <div className="smChat__single">
                   <div>
                       <img src={user} className="smChat__img" alt="chat"/>
@@ -29,7 +29,7 @@ function MiniChat() {
                   </div>
               </div>
           </Link>
-          <Link to={'/chat'}>
+          <Link to={'/chat'} className="link">
               <div className="smChat__single">
                   <div>
                       <img src={user} className="smChat__img" alt="chat"/>
@@ -40,7 +40,7 @@ function MiniChat() {
                   </div>
               </div>
           </Link>
-          <Link to={'/chat'}>
+          <Link to={'/chat'} className="link">
               <div className="smChat__single">
                   <div>
                       <img src={user} className="smChat__img" alt="chat"/>

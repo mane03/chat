@@ -3,7 +3,7 @@ import Search from "./Search";
 import Projects from "./Projects";
 import Conversation from "./Conversation";
 import Groups from "./Groups";
-import logo from '../assets/icons/code-republic-logo.png'
+import logo from '../../assets/icons/code-republic-logo.png'
 import {Link} from "react-router-dom";
 
 const Sidebar = ({ isOpen }) => {

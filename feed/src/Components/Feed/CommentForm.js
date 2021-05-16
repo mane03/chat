@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import useDynamicHeight from "../hooks/useDynamicHeight";
-import smile from "../assets/icons/smile.svg";
+import useDynamicHeight from "../../hooks/useDynamicHeight";
+import smile from "../../assets/icons/smile.svg";
 import "emoji-mart/css/emoji-mart.css";
 import { Picker } from "emoji-mart";
 const INITIAL_HEIGHT = 0;

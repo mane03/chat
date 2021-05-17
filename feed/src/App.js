@@ -1,23 +1,21 @@
 import "./App.scss";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Chat from "./Pages/Chat";
-import BigFeed from "./Pages/BigFeed";
+import { BrowserRouter as Router} from "react-router-dom";
+import Header from "./Components/Header";
+import Routs from "./Components/Routs";
 
 function App() {
+  // const isHomework = window.location.pathname === "/homeworks"
+  // console.log(isHomework)
+
+
   return (
+    <>
     <Router>
-      <Switch>
-        <Route path={"/"} exact>
-          <BigFeed />
-        </Route>
-        <Route path={"/chat"} exact>
-          <Chat />
-        </Route>
-        <Route path={"/username"} exact></Route>
-        <Route path={"./user"}></Route>
-      </Switch>
+      <Header/>
+      <Routs/>
     </Router>
+    </>
   );
 }
 

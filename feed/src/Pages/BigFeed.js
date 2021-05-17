@@ -2,13 +2,12 @@ import React, {useEffect, useState} from "react";
 import { useDarkMode } from "../hooks/useDarkMode";
 import { darkTheme, lightTheme } from "../Components/Theme";
 import { GlobalStyles } from "../Components/GlobalStyles";
-import Header from "../Components/Header";
 import Feed from "../Components/Feed/Feed";
 import { ThemeProvider } from "styled-components";
 import chat from "../assets/icons/messenger.svg";
-import MiniChat from "../Components/Chat/MiniChat";
+import MiniChat from "../Components/Feed/MiniChat";
 
-function BigFeed() {
+function BigFeed(props) {
   const [theme, themeToggler, mountedComponent] = useDarkMode();
   const themeMode = theme === "light" ? lightTheme : darkTheme;
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +28,7 @@ function BigFeed() {
     <div>
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
-        <Header />
-        <Feed theme={theme} themeToggler={themeToggler} />
+          <Feed path={props.match.path} theme={theme} themeToggler={themeToggler} />
         <div>
           <button className="chat__button" onClick={handleOpen}>
             <img src={chat} alt="chat-icon" className="chat__icon" />

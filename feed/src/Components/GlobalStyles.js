@@ -22,15 +22,17 @@ export const GlobalStyles = createGlobalStyle`
   
   .classes,
   .account,
-  .suggested{
+  .suggested,
+  .homeworks {
     background: ${({ theme }) => theme.blockColor};
   }
 
-  .comment__add  {
+  .comment__add {
     background: ${({ theme }) => theme.commentBg};
   }
 
-  .homework__list {
+  .homework__list,
+  .homeworks__background{
     background: ${({ theme }) => theme.homework};
   }
   

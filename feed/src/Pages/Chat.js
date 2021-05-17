@@ -14,13 +14,15 @@ function Chat() {
   };
 
   return (
-    <div className="chat">
-      <Sidebar isOpen={isOpen} />
-      <Main
-        handleOpenSidebar={handleOpenSidebar}
-        handleCloseSidebar={handleCloseSidebar}
-      />
-    </div>
+      <>
+        <div className="chat">
+          <Sidebar isOpen={isOpen} />
+          <Main
+            handleOpenSidebar={handleOpenSidebar}
+            handleCloseSidebar={handleCloseSidebar}
+          />
+        </div>
+      </>
   );
 }
 

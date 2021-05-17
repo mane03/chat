@@ -14,14 +14,16 @@ function Header() {
           <img src={logo} className="header__logo" alt="logo" />
         </Link>
         <div className="header__buttons">
-          <Link to={"/chat"}>
-            <button className="header__button">
-              <img src={chat} alt="chat-icon" />
-            </button>
-          </Link>
-            <button className="header__button">
-              <img src={lessons} alt="lessons-icon" />
-            </button>
+        <Link to={"/chat"}>
+          <button className="header__button">
+            <img src={chat} alt="chat-icon" />
+          </button>
+        </Link>
+        <Link to={"/homeworks"}>
+          <button className="header__button">
+            <img src={lessons} alt="lessons-icon" />
+          </button>
+        </Link>
         </div>
       </div>
     </Container>

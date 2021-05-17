@@ -1,0 +1,72 @@
+.homeworks {
+  //background: #FAFAFA/19142A;
+  padding: 45px 40px;
+  border-radius: 10px;
+
+
+  &__list {
+    //background: #E5E5E5;
+    border-radius: 10px;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__userImg {
+    margin-right: 20px;
+  }
+
+  .teacher__img {
+    width: 50px;
+
+  }
+
+  &__desc {
+    //display: flex;
+    //flex-direction: column;
+  }
+
+  .teacher__name {
+    font-size: 16px;
+    line-height: 12px;
+  }
+
+  &__time {
+    font-size: 11px;
+    line-height: 10px;
+    margin-left: 10px;
+  }
+
+  &__background {
+    //background: #DDDCDC;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__helpers {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__timer {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  .timer__icon {
+    width: 20px;
+  }
+
+  &__comment {
+
+  }
+}

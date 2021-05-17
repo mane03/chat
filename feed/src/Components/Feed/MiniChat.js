@@ -13,7 +13,7 @@ function MiniChat() {
               <img src={user} className="smChat__img" alt="chat" />
             </div>
             <div>
-              <span className="smCHat__name">Metaqs Avagyan</span>
+              <span className="smChat__name">Metaqs Avagyan</span>
               <p className="smChat__desc">Lorem ipsum dolor sit amet...</p>
             </div>
           </div>
@@ -24,7 +24,7 @@ function MiniChat() {
               <img src={user} className="smChat__img" alt="chat" />
             </div>
             <div>
-              <span className="smCHat__name">Metaqs Avagyan</span>
+              <span className="smChat__name">Metaqs Avagyan</span>
               <p className="smChat__desc">Lorem ipsum dolor sit amet...</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ function MiniChat() {
               <img src={user} className="smChat__img" alt="chat" />
             </div>
             <div>
-              <span className="smCHat__name">Metaqs Avagyan</span>
+              <span className="smChat__name">Metaqs Avagyan</span>
               <p className="smChat__desc">Lorem ipsum dolor sit amet...</p>
             </div>
           </div>
@@ -46,7 +46,7 @@ function MiniChat() {
               <img src={user} className="smChat__img" alt="chat" />
             </div>
             <div>
-              <span className="smCHat__name">Metaqs Avagyan</span>
+              <span className="smChat__name">Metaqs Avagyan</span>
               <p className="smChat__desc">Lorem ipsum dolor sit amet...</p>
             </div>
           </div>

@@ -6,6 +6,7 @@ import Feed from "../Components/Feed/Feed";
 import { ThemeProvider } from "styled-components";
 import chat from "../assets/icons/messenger.svg";
 import MiniChat from "../Components/Feed/MiniChat";
+import Notification from "../Components/Feed/Notification";
 
 function BigFeed(props) {
   const [theme, themeToggler, mountedComponent] = useDarkMode();

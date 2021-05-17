@@ -137,12 +137,19 @@
   &__selectedImg {
     position: relative;
     width: 400px;
+
+    @media (max-width: 500px) {
+      width: 200px;
+    }
   }
 
   &__selectedFile {
     width: 400px;
     height: auto;
     margin-top: 40px;
+    @media (max-width: 500px) {
+      width: 200px;
+    }
   }
 
   &__cancel {
@@ -153,6 +160,10 @@
     background: #201a34;
     border-radius: 50%;
     cursor: pointer;
+
+    @media (max-width: 500px) {
+      padding: 5px;
+    }
   }
 
   &__helpBtn {

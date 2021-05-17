@@ -5,13 +5,10 @@ import Header from "./Components/Header";
 import Routs from "./Components/Routs";
 
 function App() {
-  // const isHomework = window.location.pathname === "/homeworks"
-  // console.log(isHomework)
-
   return (
     <>
       <Router>
-        <Header />
+        <Header/>
         <Routs />
       </Router>
     </>

@@ -3,9 +3,11 @@ import useDynamicHeight from "../../hooks/useDynamicHeight";
 import paperClip from "../../assets/icons/paperClip.svg";
 import addImage from "../../assets/icons/addPhoto.svg";
 import code from "../../assets/icons/codeIcon.svg";
+import cancel from "../../assets/icons/error.svg";
 const INITIAL_HEIGHT = 0;
 
 function AddHomework() {
+  const [selectedFile, setSelectedFile] = useState(null);
   const [isExpanded, setIsExpanded] = useState(false);
   const [commentValue, setCommentValue] = useState("");
   const textRef = useRef(null);
@@ -18,6 +20,14 @@ function AddHomework() {
       outerHeight.current = containerRef.current.scrollHeight;
       setIsExpanded(true);
     }
+  };
+
+  const handleSelect = (e) => {
+    setSelectedFile(URL.createObjectURL(e.target.files[0]));
+  };
+
+  const handleCancel = () => {
+    setSelectedFile(null);
   };
 
   const handleChange = (e) => {
@@ -47,6 +57,21 @@ function AddHomework() {
           name="comment"
           id="comment"
         />
+        {selectedFile && (
+            <div className="addHomework__image">
+              <img
+                  onClick={handleCancel}
+                  src={cancel}
+                  className="img__cancel"
+                  alt="cancel"
+              />
+              <img
+                  className="addHomework__img"
+                  src={selectedFile}
+                  alt="selected-file"
+              />
+            </div>
+        )}
         <div className="addHomework__helpers">
           <div className="icons">
             <>
@@ -58,6 +83,7 @@ function AddHomework() {
                 />
               </label>
               <input
+                onChange={handleSelect}
                 className="addHomework__file"
                 type="file"
                 id="file_input"

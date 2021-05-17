@@ -97,4 +97,27 @@
   &__file {
     display: none;
   }
+
+  &__img {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  &__image {
+    position: relative;
+    width: 200px;
+  }
+
+  .img__cancel {
+    position: absolute;
+    right: -10px;
+    border-radius: 50%;
+    top: -10px;
+    background: #0f0623;
+  }
+
+  .img__cancel:hover {
+    background: #201e52;
+  }
 }

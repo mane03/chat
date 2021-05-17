@@ -38,11 +38,13 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.homework};
   }
   
-  .smChat__single:hover {
+  .smChat__single:hover,
+  .notification__item:hover {
     background: ${({ theme }) => theme.commentBg};
   }
   
-  .smChat {
+  .smChat,
+  .notification {
     background: ${({ theme }) => theme.smChat};
   }
   

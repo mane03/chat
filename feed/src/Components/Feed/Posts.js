@@ -57,60 +57,54 @@ function Posts() {
       >
         <PostForm />
         <div className="posts">
-          {items.map((i, index) => (
-            <div className="posts__item" key={index}>
-              <div className="post__info">
-                <div className="post__user">
-                  <img src={userImg} className="post__img" alt="user" />
-                  <div>
-                    <h3 className="post__name">
-                      <Link className="link" to={"/username"}>
-                        Metaqs Avagyan
-                      </Link>
-                    </h3>
-                    <span className="post__time">Today 9:25 Pm</span>
-                  </div>
+          <div className="posts__item">
+            <div className="post__info">
+              <div className="post__user">
+                <img src={userImg} className="post__img" alt="user" />
+                <div>
+                  <h3 className="post__name">
+                    <Link className="link" to={"/username"}>
+                      Metaqs Avagyan
+                    </Link>
+                  </h3>
+                  <span className="post__time">Today 9:25 Pm</span>
                 </div>
-                <p className="post__desc">
-                  Two things are infinite: the universe and human stupidity, and
-                  I'm not sure about the universe.
-                </p>
-                <img src={postIme} className="post__image" alt="post" />
-                <ul className="post__icons">
-                  <li onClick={handleAddLike} className="post__icon">
-                    {!update ? (
-                      <img
-                        className="post__helpIcon"
-                        src={disLike}
-                        alt="like"
-                      />
-                    ) : (
-                      <img src={liked} className="post__helpIcon" alt="liked" />
-                    )}
-                    {like}
-                  </li>
-                  <li className="post__icon">
-                    <img
-                      onClick={handleComment}
-                      className="post__helpIcon"
-                      src={comment}
-                      alt="comment"
-                    />
-                    67
-                  </li>
-                  <li className="post__icon">
-                    <img src={repost} alt="repost" className="post__helpIcon" />
-                    18
-                  </li>
-                  <li className="post__icon">
-                    <img src={sent} alt="sent" className="post__helpIcon" />
-                    32
-                  </li>
-                </ul>
-                {addComment && <CommentForm />}
               </div>
+              <p className="post__desc">
+                Two things are infinite: the universe and human stupidity, and
+                I'm not sure about the universe.
+              </p>
+              <img src={postIme} className="post__image" alt="post" />
+              <ul className="post__icons">
+                <li onClick={handleAddLike} className="post__icon">
+                  {!update ? (
+                    <img className="post__helpIcon" src={disLike} alt="like" />
+                  ) : (
+                    <img src={liked} className="post__helpIcon" alt="liked" />
+                  )}
+                  {like}
+                </li>
+                <li className="post__icon">
+                  <img
+                    onClick={handleComment}
+                    className="post__helpIcon"
+                    src={comment}
+                    alt="comment"
+                  />
+                  67
+                </li>
+                <li className="post__icon">
+                  <img src={repost} alt="repost" className="post__helpIcon" />
+                  18
+                </li>
+                <li className="post__icon">
+                  <img src={sent} alt="sent" className="post__helpIcon" />
+                  32
+                </li>
+              </ul>
+              {addComment && <CommentForm />}
             </div>
-          ))}
+          </div>
         </div>
       </InfiniteScroll>
     </>

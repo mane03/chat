@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import useDynamicHeight from "../../hooks/useDynamicHeight";
 import paperClip from "../../assets/icons/paperClip.svg";
 import addImage from "../../assets/icons/addPhoto.svg";
-import code from "../../assets/icons/codeIcon.svg"
+import code from "../../assets/icons/codeIcon.svg";
 const INITIAL_HEIGHT = 0;
 
 function AddHomework() {
@@ -49,7 +49,20 @@ function AddHomework() {
         />
         <div className="addHomework__helpers">
           <div className="icons">
-              <img src={addImage} className="addHomework__icon" alt="addPhoto" />
+            <>
+              <label htmlFor="file_input">
+                <img
+                  src={addImage}
+                  className="addHomework__icon"
+                  alt="addPhoto"
+                />
+              </label>
+              <input
+                className="addHomework__file"
+                type="file"
+                id="file_input"
+              />
+            </>
             <img src={code} className="addHomework__icon" alt="code" />
             <img
               src={paperClip}

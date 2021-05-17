@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Carousel, CarouselItem, CarouselControl } from "reactstrap";
 import userImg from "../../assets/images/userImage.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Suggested() {
   const [activeIndex, setActiveIndex] = useState(0);

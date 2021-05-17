@@ -14,7 +14,6 @@
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
-    //color: #262D37;
     text-align: center;
     margin-bottom: 30px;
 
@@ -24,7 +23,6 @@
   }
 
   &__list {
-    //background: #C4C4C4;
     border-radius: 10px;
     list-style: none;
     padding: 0;
@@ -35,8 +33,8 @@
     border-bottom: 1px solid #c4c4c4;
     padding: 17px 0;
 
-    &:last-child {
-      border: none;
+    &:nth-child(3) {
+      border-bottom: none;
     }
 
     @media (max-width: 1200px) {
@@ -50,13 +48,11 @@
     font-size: 15px;
     line-height: 18px;
     text-transform: capitalize;
-    //color: #1B162C;
   }
 
   &__timeline {
     font-size: 15px;
     line-height: 15px;
-    //color: #342A54;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +72,11 @@
     }
   }
 }
+
+.lessons {
+  margin-top: 60px;
+}
+
 
 @keyframes rotate {
   0% {

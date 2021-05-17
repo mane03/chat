@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { useDarkMode } from "../hooks/useDarkMode";
 import { darkTheme, lightTheme } from "../Components/Theme";
 import { GlobalStyles } from "../Components/GlobalStyles";
@@ -17,10 +17,9 @@ function BigFeed(props) {
     return () => clearTimeout(timer);
   }, []);
 
-
   const handleOpen = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   if (!mountedComponent) return <div />;
 
@@ -28,12 +27,16 @@ function BigFeed(props) {
     <div>
       <ThemeProvider theme={themeMode}>
         <GlobalStyles />
-          <Feed path={props.match.path} theme={theme} themeToggler={themeToggler} />
+        <Feed
+          path={props.match.path}
+          theme={theme}
+          themeToggler={themeToggler}
+        />
         <div>
           <button className="chat__button" onClick={handleOpen}>
             <img src={chat} alt="chat-icon" className="chat__icon" />
           </button>
-            {isOpen && <MiniChat/>}
+          {isOpen && <MiniChat />}
         </div>
       </ThemeProvider>
     </div>

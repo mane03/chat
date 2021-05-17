@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function HomeworkList() {
-    return (
-        <div>
+  return (
+      <div>
 
-        </div>
-    );
+      </div>
+  );
 }
 
 export default HomeworkList;

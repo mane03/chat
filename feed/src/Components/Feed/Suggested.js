@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Carousel, CarouselItem, CarouselControl } from "reactstrap";
 import userImg from "../../assets/images/userImage.png";
+import {Link} from "react-router-dom";
 
 function Suggested() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -48,7 +49,9 @@ function Suggested() {
             src={item.src}
             alt={item.altText}
           />
-          <h2 className="suggested__userName">{item.userName}</h2>
+          <Link className="link" to="/username">
+            <h2 className="suggested__userName">{item.userName}</h2>
+          </Link>
           <h2 className="suggested__others">
             Friends with {item.others} others
           </h2>

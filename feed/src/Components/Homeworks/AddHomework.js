@@ -1,22 +1,17 @@
 import React, { useRef, useState } from "react";
-import smile from "../../assets/icons/emojis.svg";
-import "emoji-mart/css/emoji-mart.css";
-import { Picker } from "emoji-mart";
 import useDynamicHeight from "../../hooks/useDynamicHeight";
+import paperClip from "../../assets/icons/paperClip.svg";
+import addImage from "../../assets/icons/addPhoto.svg";
+import code from "../../assets/icons/codeIcon.svg"
 const INITIAL_HEIGHT = 0;
 
-function CommentForm() {
+function AddHomework() {
   const [isExpanded, setIsExpanded] = useState(false);
   const [commentValue, setCommentValue] = useState("");
-  const [openEmoji, setOpenEmoji] = useState(false);
   const textRef = useRef(null);
   const containerRef = useRef(null);
   const outerHeight = useRef(INITIAL_HEIGHT);
   useDynamicHeight(textRef, commentValue);
-
-  const handleOpenEmoji = () => {
-    setOpenEmoji(!openEmoji);
-  };
 
   const onExpand = () => {
     if (!isExpanded) {
@@ -35,15 +30,10 @@ function CommentForm() {
     console.log(commentValue);
   };
 
-  const addEmoji = (e) => {
-    let emoji = e.native;
-    setCommentValue(commentValue + emoji);
-  };
-
   return (
-    <>
+    <div className="addHomework">
       <form
-        className="comment"
+        className="addHomework__form"
         ref={containerRef}
         style={{ minHeight: isExpanded ? outerHeight.current : INITIAL_HEIGHT }}
       >
@@ -53,26 +43,27 @@ function CommentForm() {
           onFocus={onExpand}
           onChange={handleChange}
           value={commentValue}
-          className="comment__add"
+          className="addHomework__input"
           name="comment"
           id="comment"
         />
-        {openEmoji && (
-          <Picker
-            showSkinTones={false}
-            showPreview={false}
-            onSelect={addEmoji}
-          />
-        )}
-        <div className="comment__buttons">
-          <img src={smile} onClick={handleOpenEmoji} alt="smile" />
-          <button className="comment__post" onClick={handleSubmit}>
-            Post
+        <div className="addHomework__helpers">
+          <div className="icons">
+              <img src={addImage} className="addHomework__icon" alt="addPhoto" />
+            <img src={code} className="addHomework__icon" alt="code" />
+            <img
+              src={paperClip}
+              className="addHomework__icon"
+              alt="paper-clip"
+            />
+          </div>
+          <button onClick={handleSubmit} className="addHomework__btn">
+            Send
           </button>
         </div>
       </form>
-    </>
+    </div>
   );
 }
 
-export default CommentForm;
+export default AddHomework;

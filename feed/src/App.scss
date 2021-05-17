@@ -18,7 +18,7 @@
 @import "styles/user";
 @import "styles/miniChat";
 @import "styles/homeworks";
-
+@import "styles/addHomework";
 
 :root {
   --text-color: #e0e0e0;
@@ -198,7 +198,6 @@ input[type="text"] {
   top: 5px;
   left: 5px;
 }
-
 
 .feed {
   margin-top: 30px;

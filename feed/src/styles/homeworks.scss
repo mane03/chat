@@ -1,11 +1,8 @@
 .homeworks {
-  //background: #FAFAFA/19142A;
   padding: 45px 40px;
   border-radius: 10px;
 
-
   &__list {
-    //background: #E5E5E5;
     border-radius: 10px;
   }
 
@@ -19,12 +16,6 @@
 
   .teacher__img {
     width: 50px;
-
-  }
-
-  &__desc {
-    //display: flex;
-    //flex-direction: column;
   }
 
   .teacher__name {
@@ -39,7 +30,6 @@
   }
 
   &__background {
-    //background: #DDDCDC;
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
@@ -60,13 +50,46 @@
     display: flex;
     align-items: center;
     margin-right: 15px;
+    font-size: 15px;
   }
 
   .timer__icon {
     width: 20px;
   }
+}
 
-  &__comment {
+.addHomework {
+  &__form {
+    border-radius: 10px;
+    padding: 5px 17px;
+  }
 
+  &__input {
+    background: transparent;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  &__helpers {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    &:nth-child(2) {
+      margin: 0 15px;
+    }
+  }
+
+  &__btn {
+    border: none;
+    background: transparent;
+    outline: none;
+    background: -webkit-linear-gradient(#5c27fe, #b05abf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

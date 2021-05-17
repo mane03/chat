@@ -4,14 +4,10 @@ import cancel from "../../assets/icons/error.svg";
 
 function PostForm() {
   const [selectedFile, setSelectedFile] = useState(null);
-  // const [isFilePicked, setIsFilePicked] = useState(false);
 
   const handleChange = (e) => {
     setSelectedFile(URL.createObjectURL(e.target.files[0]));
-    // setIsFilePicked(true);
   };
-
-  // console.log(selectedFile);
 
   const handleCancel = () => {
     setSelectedFile(null);
@@ -60,7 +56,7 @@ function PostForm() {
             />
           </li>
           <li className="post__items">
-            <button className="post__helpBtn">book</button>
+            <button className="post__helpBtn">Book</button>
           </li>
         </ul>
         <button className="post__btn">Post</button>

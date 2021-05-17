@@ -11,7 +11,9 @@ const Account = ({ theme, themeToggler }) => {
       <div className="account">
         <img className="account__img" src={userImg} alt="user" />
         <h2 className="account__name">
-          <Link to={"/user"} className="link">Mane Kirakosyan</Link>
+          <Link to={"/user"} className="link">
+            Mane Kirakosyan
+          </Link>
         </h2>
         <h3 className="account__desc">Female | 09.08.2003</h3>
         <Toggle theme={theme} toggleTheme={themeToggler} />

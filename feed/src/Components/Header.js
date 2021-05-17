@@ -6,7 +6,6 @@ import logo from "../assets/icons/code-republic-logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
-
   return (
     <Container className="header__container" fluid>
       <div className="header">
@@ -14,16 +13,16 @@ function Header() {
           <img src={logo} className="header__logo" alt="logo" />
         </Link>
         <div className="header__buttons">
-        <Link to={"/chat"}>
-          <button className="header__button">
-            <img src={chat} alt="chat-icon" />
-          </button>
-        </Link>
-        <Link to={"/homeworks"}>
-          <button className="header__button">
-            <img src={lessons} alt="lessons-icon" />
-          </button>
-        </Link>
+          <Link to={"/chat"}>
+            <button className="header__button">
+              <img src={chat} alt="chat-icon" />
+            </button>
+          </Link>
+          <Link to={"/homeworks"}>
+            <button className="header__button">
+              <img src={lessons} alt="lessons-icon" />
+            </button>
+          </Link>
         </div>
       </div>
     </Container>

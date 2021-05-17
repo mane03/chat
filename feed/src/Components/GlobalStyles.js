@@ -11,7 +11,8 @@ export const GlobalStyles = createGlobalStyle`
   .post__input,
   .post__helpBtn,
   .comment__add,
-  .link {
+  .link,
+  .addHomework__input {
     color: ${({ theme }) => theme.text};
   }
   
@@ -27,12 +28,13 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.blockColor};
   }
 
-  .comment__add {
+  .comment__add{
     background: ${({ theme }) => theme.commentBg};
   }
 
   .homework__list,
-  .homeworks__background{
+  .homeworks__background,
+  .addHomework__form {
     background: ${({ theme }) => theme.homework};
   }
   

@@ -4,12 +4,13 @@ import styled from "styled-components";
 
 const Button = styled.button`
   background-color: ${({ theme }) => theme.toggleColor};
-  border-radius: 30px;
+  border-radius: 50%;
   cursor: pointer;
-  padding: 5px 30px;
+  width: 40px;
+  height: 40px;
   border: none;
   outline: none;
-  margin: 25px 0;
+  margin-right: 20px;
   @media (max-width: 1200px) {
     margin: 20px 0;
     padding: 5px 25px;

@@ -39,12 +39,14 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   .smChat__single:hover,
-  .notification__item:hover {
+  .notification__item:hover,
+  .settings__item:hover {
     background: ${({ theme }) => theme.commentBg};
   }
   
   .smChat,
-  .notification {
+  .notification,
+  .settings {
     background: ${({ theme }) => theme.smChat};
   }
   

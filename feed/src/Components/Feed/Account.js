@@ -2,10 +2,9 @@ import React from "react";
 import Activity from "./Activity";
 import Presents from "./Presents";
 import userImg from "../../assets/images/userImage.png";
-import Toggle from "../Toggler";
 import { Link } from "react-router-dom";
 
-const Account = ({ theme, themeToggler }) => {
+const Account = () => {
   return (
     <>
       <div className="account">
@@ -16,7 +15,6 @@ const Account = ({ theme, themeToggler }) => {
           </Link>
         </h2>
         <h3 className="account__desc">Female | 09.08.2003</h3>
-        <Toggle theme={theme} toggleTheme={themeToggler} />
         <ul className="account__info">
           <li className="info__item">
             <h3 className="info__title">Posts</h3>

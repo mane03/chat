@@ -1,0 +1,46 @@
+.settings {
+  position: absolute;
+  z-index: 2;
+  background: #0f0623;
+  right: 20px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 3px 1px 9px 2px rgb(84 91 90 / 77%), 0 12px 28px rgb(0 0 0 / 20%);
+
+  &__title {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  &__item {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 10px;
+
+    .icon__background {
+      margin-right: 20px;
+      background: #201e52;
+      width: 40px;
+      min-width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //padding: 20px;
+      border-radius: 50%;
+    }
+  }
+
+  &__icon {
+    //background: #201e52;
+    //border-radius: 50%;
+    //padding: 20px;
+  }
+
+  &__desc {
+  }
+}

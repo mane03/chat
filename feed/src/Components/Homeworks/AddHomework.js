@@ -58,19 +58,19 @@ function AddHomework() {
           id="comment"
         />
         {selectedFile && (
-            <div className="addHomework__image">
-              <img
-                  onClick={handleCancel}
-                  src={cancel}
-                  className="img__cancel"
-                  alt="cancel"
-              />
-              <img
-                  className="addHomework__img"
-                  src={selectedFile}
-                  alt="selected-file"
-              />
-            </div>
+          <div className="addHomework__image">
+            <img
+              onClick={handleCancel}
+              src={cancel}
+              className="img__cancel"
+              alt="cancel"
+            />
+            <img
+              className="addHomework__img"
+              src={selectedFile}
+              alt="selected-file"
+            />
+          </div>
         )}
         <div className="addHomework__helpers">
           <div className="icons">

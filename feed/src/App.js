@@ -4,9 +4,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./Components/Header";
 import Routs from "./Components/Routs";
 import { useDarkMode } from "./hooks/useDarkMode";
-import { darkTheme, lightTheme } from "./Components/Theme";
+import { darkTheme, lightTheme } from "./Components/Theme/Theme";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./Components/GlobalStyles";
+import { GlobalStyles } from "./Components/Theme/GlobalStyles";
 
 function App() {
   const [theme, themeToggler, mountedComponent] = useDarkMode();

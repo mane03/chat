@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Feed from "../Components/Feed/Feed";
 import chat from "../assets/icons/messenger.svg";
-import MiniChat from "../Components/Feed/MiniChat";
+import MiniChat from "../Components/Chat/MiniChat";
 
 function BigFeed(props) {
   const [isOpen, setIsOpen] = useState(false);

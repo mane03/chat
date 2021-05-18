@@ -4,7 +4,7 @@ import Posts from "./Posts";
 import Classes from "./Classes";
 import { Col, Container, Row } from "reactstrap";
 import Suggested from "./Suggested";
-import Homeworks from "../Homeworks/Homeworks";
+import Homeworks from "../../Pages/Homeworks/Homeworks";
 
 function Feed({ path }) {
   const isHomework = path === "/homeworks";

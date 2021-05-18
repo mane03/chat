@@ -6,8 +6,8 @@ import logo from "../assets/icons/code-republic-logo.png";
 import notification from "../assets/icons/notification.svg";
 import setting from "../assets/icons/settings.svg";
 import { Link } from "react-router-dom";
-import Notification from "./Feed/Notification";
-import Settings from "./Feed/Settings";
+import Notification from "./Header/Notification";
+import Settings from "./Header/Settings";
 
 function Header({ theme, themeToggler }) {
   const [openNotification, setOpenNotification] = useState(false);

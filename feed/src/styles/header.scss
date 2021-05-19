@@ -6,6 +6,10 @@
   align-items: center;
   justify-content: space-between;
 
+  @media (max-width: 370px) {
+    padding: 10px;
+  }
+
   &__container {
     padding: 0 !important;
   }
@@ -26,6 +30,10 @@
 
     &:hover {
       background: darken(#342a54, 5%);
+    }
+
+    @media (max-width: 400px) {
+      margin: 0 5px;
     }
   }
 }

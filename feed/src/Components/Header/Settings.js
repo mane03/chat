@@ -4,7 +4,7 @@ import Toggle from "../Theme/Toggler";
 
 function Settings({ theme, themeToggler }) {
   return (
-    <div className="settings">
+    <div className="notification">
       <h2 className="settings__title">Settings</h2>
       <div className="settings__item">
         <Toggle theme={theme} toggleTheme={themeToggler} />

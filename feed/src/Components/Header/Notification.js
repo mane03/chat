@@ -11,7 +11,7 @@ function Notification() {
         </div>
         <div>
           <p className="notification__text">
-            Lorem ipsum dolor sit amet, consectetur consectetur consectetur{" "}
+            Lorem ipsum dolor sit amet, consecrated consecrated consecrated{" "}
             <span className="notification__name">Metaqs Avagyan</span>
           </p>
           <span className="notification__time">Today: 22:26</span>
@@ -23,7 +23,7 @@ function Notification() {
         </div>
         <div>
           <p className="notification__text">
-            Lorem ipsum dolor sit amet, consectetur consectetur consectetur{" "}
+            Lorem ipsum dolor sit amet, consecrated consecrated consecrated{" "}
             <span className="notification__name">Metaqs Avagyan</span>
           </p>
           <span className="notification__time">Today: 22:26</span>
@@ -35,7 +35,7 @@ function Notification() {
         </div>
         <div>
           <p className="notification__text">
-            Lorem ipsum dolor sit amet, consectetur consectetur consectetur{" "}
+            Lorem ipsum dolor sit amet, consecrated consecrated consecrated{" "}
             <span className="notification__name">Metaqs Avagyan</span>
           </p>
           <span className="notification__time">Today: 22:26</span>

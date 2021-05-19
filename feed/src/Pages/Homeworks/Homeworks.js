@@ -17,10 +17,10 @@ function Homeworks() {
         <div className="homeworks__item">
           <div className="homeworks__userImg">
             <img src={userImg} className="teacher__img" alt="user" />
-          </div>
-          <div className="homeworks__desc">
             <span className="teacher__name">Dero Khachatryan</span>
             <span className="homeworks__time">14:20</span>
+          </div>
+          <div className="homeworks__desc">
             <div className="homeworks__background">
               <p className="homeworks__text">
                 Write a function that returns the string "something" joined with

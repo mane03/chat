@@ -9,7 +9,7 @@ function Profile(props) {
   return (
     <Container>
       <Row>
-        <Col ls="12">
+        <Col lg="12">
           <div className="profile">
             <ProfileHeader path={props.match.path}/>
             <ProfileNavigation />
@@ -17,7 +17,7 @@ function Profile(props) {
         </Col>
         </Row>
       <Row>
-        <Col lg={{size: 8, offset: 2}}>
+        <Col lg={{size: 8, offset: 2}} md={{size: 12, offset: 0}}>
           <Posts/>
         </Col>
       </Row>

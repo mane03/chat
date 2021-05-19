@@ -10,7 +10,7 @@ function ProfileHeader({path}) {
         <img className="profile__img" src={user} alt="user-img" />
         <div className="profile__userInfo">
           <h2 className="profile__username">{isUser ? "Metaqs Avagyan" : "Mane Kirakosyan"}</h2>
-          <p className="profile__email">{isUser ? "metaqsavagyan@gmail.com" : "kirakosyanmane03@gmail.com"}</p>
+          <p className="profile__email">{isUser ? "metaqsavagyan@gmail.com" : "mane@gmail.com"}</p>
           <button className="profile__button">Team</button>
         </div>
         <div className="profile__desc">
@@ -28,7 +28,7 @@ function ProfileHeader({path}) {
               <span className="info__count">125</span>
             </li>
           </ul>
-          <button className="profile__button">{isUser ? "Follow" : "Edit Profile"}</button>
+          <button className="profile__button">{isUser ? "Follow" : "Edit"}</button>
         </div>
       </div>
     </>
